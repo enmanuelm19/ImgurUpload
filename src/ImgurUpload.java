@@ -22,7 +22,7 @@ public class ImgurUpload {
 	public static void main(String[] args) throws IOException, ParseException {
 		// TODO Auto-generated method stub
 		String IMGUR_POST_URI = "https://api.imgur.com/3/upload";
-		String IMGUR_API_KEY = "b43b22c6dd0622e";
+		String IMGUR_API_KEY = "API_KEY_HERE";
 		BufferedImage image = null;
 		String localImage = System.getProperty("user.home")+"/avatar.jpg";
 		File file = new File(localImage);
